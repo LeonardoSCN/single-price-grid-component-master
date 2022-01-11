@@ -1,0 +1,181 @@
+body {
+  max-width: 100vh;
+  max-height: 100vh;
+  margin: 200px auto;
+  background-color:  rgb(219, 219, 219);
+  box-sizing: border-box;
+}
+
+.container {
+ display: grid;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+.join {
+  background-color: #fff;
+  border-radius: 6px 6px 0px 0px;
+  padding: 20px 50px;
+  }
+  
+.join h1 {
+  color: hsl(179, 62%, 43%);
+  font-family: "Karla";
+  font-weight: 700;
+}
+
+.join h2 {
+  font-family: "Karla";
+  font-weight: 400;
+  color: hsl(71, 73%, 54%);
+}
+
+.join p {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 18px;
+  color: hsl(0, 0%, 70%);
+}
+
+.mes {
+  background-color: hsl(179, 62%, 43%);
+  padding: 20px 50px;
+  border-radius: 0px 0px 0px 6px;
+  
+}
+
+.mes h2 {
+  font-family: "Karla";
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+.mes span {
+  font-size: 28px;
+  font-family: "Karla";
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
+.mes p:first-of-type{
+  font-family: "Karla";
+  color: hsla(0, 6%, 90%, 0.555);
+  font-size: 18px;
+}
+
+.mes p {
+  font-family: "Karla";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.747);
+  margin-bottom: 20px;
+}
+
+
+.parte-dois {
+  display: flex;
+}
+
+.mes button {
+  background-color: hsl(71, 73%, 54%);
+  font-family: "Karla";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.74);
+  padding: 10px 112px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+
+
+.why-us {
+  background: hsl(179, 50%, 55%);
+  border-radius: 0px 0px 6px 0px;
+  max-width: 30ch;
+  padding-right: 130px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.why-us  h2{
+  font-family: "Karla";
+  font-weight: 400;
+  color: #fff;
+  margin-top: 35px;
+}
+
+.why-us p {
+  font-family: "Karla";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.589);
+  margin-bottom: 20px;
+}
+
+
+@media(max-width:1000px) {
+
+ body {
+  margin: 40px auto;
+ }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .join {
+    max-width: 220px;
+  }
+
+.join h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.join h2 {
+  font-size: 14px;
+}
+
+.join p {
+  font-size: 14px;
+}
+.mes {
+  padding: 0 50px;
+  border-radius: 0px;
+}
+
+.mes h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.mes p:first-of-type {
+  font-size: 16px;
+}
+  .mes p {
+    font-size: 13px;
+  }
+.mes button{
+  padding: 10px 70px;
+}
+  .parte-dois {
+    display: flex;
+    flex-direction: column;
+  }
+  .why-us {
+    margin-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 0px 0px 6px 6px;
+  }
+
+  .why-us p {
+    font-size: 14px;
+  }
+  .why-us h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
